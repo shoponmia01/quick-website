@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #0F2656;
+}
+/*header start*/
+header{
+	border-bottom: 2px solid #EEF0F3;
+	margin-top: 10px;
+	padding: 15px 0;
+}
+.wrapper{
+	overflow: hidden;
+	width: 88%;
+/*	border: 1px solid red;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 7%;
+}
+.logo img{
+	float: left;
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 90%;
+}
+.menu nav{
+	overflow: hidden;
+}
+.menu nav ul{
+	float: right;
+	overflow: hidden;
+}
+.menu nav ul li{
+	float: left;
+	list-style: none;
+}
+.menu nav ul li a{
+	text-decoration: none;
+	padding-left: 30px;
+	font-weight: 700;
+}
+.menu nav ul li a:hover{
+	color: #008aff;
+}
+/*header end*/
+
+
+/*banner start*/
+.banner{
+	margin: 70px 0;
+}
+.wrapper2{
+	width: 60%;
+/*	border: 1px solid red;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.wrapper2 h1{
+	font-size: 50px;
+	padding: 0 50px;
+}
+.wrapper2 span{
+	color: #008aff;
+}
+.wrapper2 p{
+	padding: 0 50px;
+	line-height: 25px;
+	margin: 20px 0;
+}
+.banner_img{
+
+}
+.banner_img img{
+}
+/*banner end*/
+
+/*success start*/
+.success{
+	margin: 80px 0;
+}
+.wrapper3{
+	overflow: hidden;
+	width: 60%;
+	margin: 0 auto;
+}
+.part1{
+	float: left;
+	width: 45%;
+/*	border: 1px solid red;*/
+	text-align: right;
+}
+.part1 h1{
+	font-size: 50px;
+	color: #f15767;
+}
+.part1 p{
+	line-height: 25px;
+}
+.part2{
+	float: left;
+	width: 50%;
+/*	border: 1px solid yellow;*/
+	margin-left: 4%;
+}
+.part2 h1{
+	font-size: 50px;
+}
+/*success end*/
+
+
+
+
+/*feature start*/
+.features{
+	margin-bottom: 80px;
+}
+.feature_item{
+	float: left;
+	width: 28%;
+	padding: 70px 20px; 
+	margin-right: 2.5%;
+}
+.f_img{
+	text-align: center;
+} 
+.f_img img{
+	width: 280px;
+	height: 180px;
+	
+}
+.feature_item h3{
+	margin: 15px 0;
+} 
+.feature_item p{
+	line-height: 25px;
+	padding-right: 30px;
+}
+.f_pink{
+	background-color: #fdebed;
+} 
+.f_green{
+	background-color: #ebf9f4;
+} 
+.f_yellow{
+	background-color: #fff7e8;
+}
+.wrapper .feature_item:last-child{
+	margin-right: 0;
+}  
+/*feature end*/
+
+
+/*footer start*/
+footer{
+	text-align: center;
+	background-color: #008aff;
+	padding: 30px 0;
+}
+footer p{
+	color: #6dc2ff;
+	font-weight: 700;
+}
+footer span{
+	color: white;
+}
